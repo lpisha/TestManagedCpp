@@ -37,7 +37,7 @@ In terms of what is actually happening internally, it appears from
 `extern __declspec(managed) int m` on MSVC. I'm not sure how these are being
 converted to something like `extern int *m` and `extern int m` respectively.
 
-The (CUDA C Programming Guide)[https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#managed-specifier]
+The [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#managed-specifier)
 does not mention anything about `__managed__` variables not being accessible
 from within `.cpp` files. This reproducer does not violate any of the
 restrictions listed there (except perhaps implicitly the restriction "The
