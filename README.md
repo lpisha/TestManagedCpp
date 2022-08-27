@@ -49,7 +49,7 @@ incorrect output. But ideally this would actually work correctly, or if that's
 not possible, a diagnostic like `accessing __managed__ variable within C/C++
 file is not allowed` would be preferable to link errors.
 
-* Linux: Debian 4.19 x86_64, CUDA 11.5, driver 495.46, g++ 8.3 \
-* Windows: 10 x86_64, VS 2019, CUDA 11.6 \
-* Both: NVIDIA GeForce RTX 3080 \
+\* Linux: Debian 4.19 x86_64, CUDA 11.5, driver 495.46, g++ 8.3 \
+\*\* Windows: 10 x86_64, VS 2019, CUDA 11.6 \
+Both: NVIDIA GeForce RTX 3080 \
 Though I would be surprised if any of this was version specific.
